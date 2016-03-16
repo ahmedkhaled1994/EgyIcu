@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="@drawable/back"
+
+    tools:context="com.example.firstapp.Hadana_Submenu">
+
+    <include layout="@layout/action_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ay kalam fel betengan"
+            android:background="#99FFFFFF"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
